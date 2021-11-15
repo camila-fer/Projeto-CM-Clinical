@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(176,224,230);
+}
+
+.container{
+    margin: auto;
+}
+
+.cadastro{
+    padding:100px 0 30px;
+}
+
+.card{
+	padding-top: 30px;
+	border-top-right-radius: 15px; /*arredonda o topo e a direita das bordas*/
+	border-bottom-right-radius: 15px; /*arredonda embaixo e a direita das bordas*/
+	/*para criar sombra nas bordas*/
+	box-shadow: 2px 2px 5px #0076a3;
+	-webkit-box-shadow: 2px 2px 5px #0076a3;
+	-moz-box-shadow: 2px 2px 5px #0076a3;
+	/*para criar sombra nas bordas*/
+	border-top-left-radius: 15px; /*arredonda o topo e esquerda das bordas*/
+	border-bottom-left-radius: 15px; /*arredonda embaixo e esquerda das bordas*/
+	box-shadow: 2px 2px 5px #0076a3;
+	-webkit-box-shadow: 2px 2px 5px #0076a3;
+	-moz-box-shadow: 2px 2px 5px #0076a3;
+}
+
+/*ESTILIZA A LOGO*/
+.cadastro .logo{
+	position:absolute;
+	margin:0 auto;
+	left:0;
+	right:0;
+	width:115px;
+	height:115px;
+	top:-30px;
+}
+
+.cadastro .logo img{
+	width:100%;
+	border-radius:50%;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cadastrobtn{
+	color: #008B8B; /*muda a cor do texto*/
+}
